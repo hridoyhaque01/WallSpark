@@ -95,7 +95,7 @@ const SideNav = () => {
         </div>
         {/* wallpapers  */}
 
-        <div className="w-full overflow-hidden capitalize">
+        {/* <div className="w-full overflow-hidden capitalize">
           <NavLink
             to="/colors"
             className="flex items-center pl-6 pr-3 py-4 cursor-pointer select-none"
@@ -106,7 +106,7 @@ const SideNav = () => {
               <span>Colors</span>
             </p>
           </NavLink>
-        </div>
+        </div> */}
 
         {/* logout */}
         <button

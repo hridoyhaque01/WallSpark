@@ -2,7 +2,6 @@ import { createBrowserRouter } from "react-router-dom";
 import Layout from "../layout/Layout";
 import Login from "../pages/Authentication/Login/Login";
 import Categories from "../pages/categories/Categories";
-import Colors from "../pages/colors/Colors";
 import Dashboard from "../pages/dashboard/Dashboard";
 import Trending from "../pages/trending/Trending";
 import Wallpapers from "../pages/wallpapers/Wallpapers";
@@ -33,10 +32,10 @@ export const routes = createBrowserRouter([
         path: "/trending",
         element: <Trending></Trending>,
       },
-      {
-        path: "/colors",
-        element: <Colors></Colors>,
-      },
+      // {
+      //   path: "/colors",
+      //   element: <Colors></Colors>,
+      // },
     ],
   },
   // {
