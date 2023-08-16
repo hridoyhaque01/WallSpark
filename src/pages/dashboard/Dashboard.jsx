@@ -86,7 +86,6 @@ export default function Dashboard() {
         {categories?.map((category, i) => {
           const rowNumber = Math.floor(i / 4); // Assuming there are 4 columns in the Masonry layout
           const isRowEven = rowNumber % 2 === 0 ? true : false;
-          console.log(isRowEven);
           const height =
             i % 2 === 0
               ? isRowEven
